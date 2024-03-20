@@ -1,0 +1,24 @@
+#faculty {
+    background-image: url('ari.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    animation: fadeIn 2s;
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+    font-weight: bolder;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Add a transition effect when hovering over the images */ 
+.gallery img:hover { 
+    transform: scale(1.1); 
+} 
